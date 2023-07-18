@@ -6,7 +6,7 @@ class MainWindow(QMainWindow):
 
         self.app = app
         self.resize(600, 600)
-        self.setWindowTitle("pyside6tut")
+        self.setWindowTitle("Python Synth")
 
         widget = MainUI(self)
 
